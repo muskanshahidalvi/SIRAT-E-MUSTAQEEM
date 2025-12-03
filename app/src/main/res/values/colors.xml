@@ -7,4 +7,17 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="dark_gray">#555555</color>
+    <color name="brand_pink">#D81B60</color> <!-- Main brand pink -->
+    <color name="primary_pink">#D81B60</color>
+    <color name="accent_magenta">#AD1457</color>
+    <color name="warm_gold">#F9A825</color>
+    <color name="soft_peach">#FCE4EC</color>
+    <color name="charcoal_text">#2E2E2E</color>
+    <color name="off_white">#FFF8F9</color>
+    <color name="gray_subtle">#9E9E9E</color>
+    <color name="light_gray">#E0E0E0</color>
+
+
+
 </resources>

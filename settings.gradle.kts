@@ -1,3 +1,5 @@
+import kotlin.io.path.name
+
 pluginManagement {
     repositories {
         google {
@@ -19,5 +21,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Sirat-e-Mustaqeem"
+// Corrected line
 include(":app")
+
+rootProject.name = "Sirat-e-Mustaqeem"
+

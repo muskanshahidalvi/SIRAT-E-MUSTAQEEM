@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp"
+    android:background="@color/off_white">
+
+    <TextView
+        android:id="@+id/tvWelcomeHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/charcoal_text"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/tvSubHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here are the active campaigns"
+        android:textSize="14sp"
+        android:textColor="@color/gray_subtle"
+        android:layout_marginTop="6dp"/>
+
+    <!-- Quick actions -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginTop="18dp">
+
+        <Button android:id="@+id/btnDonateNow" android:layout_width="0dp" android:layout_height="48dp"
+            android:layout_weight="1" android:text="Donate Now" android:backgroundTint="@color/warm_gold"/>
+
+        <View android:layout_width="12dp" android:layout_height="1dp"/>
+
+        <Button android:id="@+id/btnMyDonations" android:layout_width="0dp" android:layout_height="48dp"
+            android:layout_weight="1" android:text="My Donations" android:backgroundTint="@color/primary_pink"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvGuestInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You are browsing as Guest — login to track donations."
+        android:textColor="@color/primary_pink"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

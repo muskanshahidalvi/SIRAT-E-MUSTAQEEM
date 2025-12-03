@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "844714782277",
+    "project_id": "sirat-e-mustaqeem-e8e0f",
+    "storage_bucket": "sirat-e-mustaqeem-e8e0f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844714782277:android:bd01798a3260111a94bd2c",
+        "android_client_info": {
+          "package_name": "com.example.sirat_e_mustaqeem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNj8zV0qx_SyEpKo-g4TXTrMYUlVCNLPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
